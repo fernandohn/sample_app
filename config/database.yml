@@ -3,21 +3,21 @@ development:
   encoding: unicode
   database: microblog_development
   pool: 5
-  username: fernando
-  password: 316814
+  username: developer
+  password: developer
 
 test:
   adapter: postgresql
   encoding: unicode
   database: microblog_test
   pool: 5
-  username: fernando
-  password: 316814
+  username: developer
+  password: developer
 
 production:
   adapter: postgresql
   encoding: unicode
   database: microblog_production
   pool: 5
-  username: fernando
-  password: 316814
+  username: developer
+  password: developer
