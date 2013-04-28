@@ -1,5 +1,5 @@
 Microblog::Application.routes.draw do
-  get "users/new"
+  resources :users
 
   # routes to static pages
   root to: 'static_pages#home'
