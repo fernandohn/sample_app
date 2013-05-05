@@ -1,5 +1,7 @@
 Microblog::Application.routes.draw do
-  resource :users
+  resources :users
+  resources :sessions, only: [:new, :create, :destroy]
+
 
   # routes to static pages
   root to: 'static_pages#home'
